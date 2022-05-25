@@ -1,0 +1,30 @@
+<header class="section header-area">
+    <div id="appo-header" class="main-header-area mat-elevation-z4" style="background-color: #fff;height: 50px; width: 100%;">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <!-- Logo -->
+                <a class="navbar-brand" routerLink="/">
+                    <img src="./assets/4/site/logo.png" style="" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#appo-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Appo Menu -->
+                <div class="collapse navbar-collapse" id="appo-menu">
+                    <!-- Header Items -->
+                    <ul class="header-items navbar-nav ml-auto">
+                        <li class="nav-item" *ngFor="let u of urls; let i = index;">
+                            <a style="font-family:'Amazing-Grotesk-Demi',sans-serif; cursor: pointer;"
+                               [routerLinkActiveOptions]="{exact: true}"
+                               routerLinkActive="active-link" [routerLink]="u.url"
+                               (click)="onNavigate(u, i)"
+                               class="wow fadeInUp text-uppercase nav-link scroll">
+                                {{u.name}}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7765ba94-bc5a-41cf-98eb-def54c165968" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../1/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-zira/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../26/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../28/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-fullhouse/.idea/appo-template-v1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="28QB5ONxswKGF02FEkOLfYVHdE3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new-site" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="ts.external.directory.path" value="C:\Users\Xusan\Desktop\sites\4\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Xusan\Desktop\sites\2\src\assets\2\site" />
+      <recent name="C:\Users\Xusan\Desktop\sites\2\src\app\components\inner-pages" />
+      <recent name="C:\Users\Xusan\Desktop\sites\2\src\app\components" />
+      <recent name="C:\Users\Xusan\Desktop\sites\2\src\assets\2" />
+      <recent name="C:\Users\Xusan\Desktop\appo-template-v1.0\src\app\services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="E2E Tests (appo)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="Protractor.E2E Tests (appo)" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7765ba94-bc5a-41cf-98eb-def54c165968" name="Default Changelist" comment="" />
+      <created>1651138746183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651138746183</updated>
+      <workItem from="1651138747524" duration="30885000" />
+      <workItem from="1651402264280" duration="8067000" />
+      <workItem from="1651673480547" duration="23469000" />
+      <workItem from="1651755060467" duration="1170000" />
+      <workItem from="1651756444570" duration="1260000" />
+      <workItem from="1651758651075" duration="24097000" />
+      <workItem from="1651867808052" duration="18202000" />
+      <workItem from="1652034749593" duration="1209000" />
+      <workItem from="1653462119627" duration="221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651952156037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1651846047748" />
+    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1651952156037" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651754069953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1651754069953" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1651673735246" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1653462341519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1653462341519" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1652036295183" />
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1653462342832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1653462342832" />
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1651956157040" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1653462342832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1653462342832" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1651956157040" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1653462342832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1653462342832" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1651956157039" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1653462342832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1653462342832" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1651956157040" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1651889113594">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1651746196732" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1651889113594" />
+    <state x="478" y="145" width="742" height="534" key="find.popup" timestamp="1651885736397">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="742" height="534" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1651830504939" />
+    <state x="478" y="145" width="742" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1651885736397" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1651887058799">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1651887058799" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1651674099602">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1651674099602" />
+  </component>
+</project>
