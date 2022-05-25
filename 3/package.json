@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --baseHref=https://github.com/xmirzaaxmedov94/xmirzaaxmedov94",
+    "build": "ng build --prod --baseHref=https://xmirzaaxmedov94.github.io/xmirzaaxmedov94",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
