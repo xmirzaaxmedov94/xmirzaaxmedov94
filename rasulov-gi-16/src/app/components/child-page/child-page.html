@@ -1,0 +1,54 @@
+<div *ngIf="name !=null">
+  <h1 class="text-center text-capitalize">{{name}}</h1>
+  <div *ngIf="obj$ | async as o">
+    <div class="my-4">
+      <p >{{o[name].part1?.text}}</p>
+    </div>
+    <div class="my-3">
+      <div class="row align-items-center">
+        <ng-container *ngIf="o[name].part2?.img1 ==''">
+          <div [ngClass]="{'col-12':o[name].part2.title == '', 'col-6':o[name].part2.title != ''}">
+            <img [src]="'./assets/'+ code + '/' + o[name].part2?.img" alt="">
+          </div>
+          <div class="col-6">
+            <h2 class="my-3">{{o[name].part2?.title}}</h2>
+            <p>{{o[name].part2?.text}}</p>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="o[name].part2?.img1 !=''">
+          <div class="col-4">
+            <img [src]="'./assets/'+ code + '/' + o[name].part2?.img" alt="">
+          </div>
+          <div class="col-4">
+            <img [src]="'./assets/'+ code + '/' + o[name].part2?.img1" alt="">
+          </div>
+          <div class="col-4">
+            <img [src]="'./assets/'+ code + '/' + o[name].part2?.img2" alt="">
+          </div>
+        </ng-container>
+      </div>
+    </div>
+    <div class="my-3">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <h2 class="my-3">{{o[name].part3?.title}}</h2>
+          <p>{{o[name].part3?.text}}</p>
+        </div>
+        <div class="col-6">
+          <img [src]="'./assets/'+ code + '/' + o[name].part3?.img" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="my-3" *ngIf="o[name].part4?.img!=''">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <img [src]="'./assets/'+ code + '/' + o[name].part4?.img" alt="">
+        </div>
+        <div class="col-6">
+          <h2 class="my-3">{{o[name].part4?.title}}</h2>
+          <p>{{o[name].part4?.text}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
