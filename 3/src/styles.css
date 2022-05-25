@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+button:focus {
+    outline: none !important;
+}
+
+.overlayed:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    height: 61%;
+}
+ol li {
+    list-style: decimal !important;
+}
+.active-link {
+    color: yellow !important;
+}
+.blog-area:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: rgba(0,0,0,.35);
+    height: 0;
+    width: 100%;
+}
+.about-1:hover .about-1-overlay {
+    transition: .4s ease-in;
+    height: 100% !important;
+    visibility: visible !important;
+    z-index: 9999 !important;
+    opacity: 1 !important;
+}
+.about-1:hover .about-1-overlay:after {
+    background: rgba(0,0,0,.35);
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.about-1:hover .about-1-btn{
+    visibility: hidden;
+}
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+    background-color: #fff !important;
+}
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #d1d1d1;
+}
+

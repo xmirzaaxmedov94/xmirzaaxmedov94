@@ -1,0 +1,35 @@
+<header class="section header-area">
+    <div id="appo-header" class="main-header-area" [ngStyle]="{'height': url == '' ? '80vh' : '50px','width': url == '' ? '15%' : '100%'}" style="background-color: #333335;">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <!-- Logo -->
+                <a *ngIf="url!=''" class="navbar-brand" routerLink="/">
+                    <img src="./assets/3/site3/logo.png" style="width: 150px;" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#appo-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Appo Menu -->
+                <div class="collapse navbar-collapse" id="appo-menu">
+                    <!-- Header Items -->
+                    <ul class="header-items ml-auto" [ngClass]="{'navbar-nav': url !=''}">
+                        <li *ngIf="url==''" class="nav-item my-4">
+                            <a class="navbar-brand" routerLink="/">
+                                <img src="./assets/3/site3/logo.png" style="width: 150px;" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item" *ngFor="let u of urls; let i = index;">
+                            <a style="font-family:'Amazing-Grotesk-Demi',sans-serif; cursor: pointer;"
+                               [routerLinkActiveOptions]="{exact: true}"
+                               routerLinkActive="active-link" [routerLink]="u.url"
+                               (click)="onNavigate(u, i)"
+                               class="wow fadeInUp text-uppercase nav-link scroll text-white">
+                                {{u.name}}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
